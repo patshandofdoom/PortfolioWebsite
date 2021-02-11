@@ -1,9 +1,37 @@
 h1{
     background-color: green;
 }
-.topbar{
-    display: inline;
-    width: 100%;
+div{
+    
+}
+
+body{
+    display: block;
+    max-width: 1000px;
     margin: auto;
-    padding: 5px;
+}
+.topbar{
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr; 
+    column-gap: 1em;
+    gap: 1em;
+}
+.topbar > div{
+    background-color: mediumblue;
+    padding: 1em;
+    text-align: center;
+}
+.main_body{
+    display: grid;
+    grid-template-columns: 5fr 3fr 2fr;    
+}
+.main_body >div{
+    padding: 1em;
+    word-wrap: break-word;
+}
+.link{
+    
+    display: block;
+    border: 2px;
+    fill: green;
 }
