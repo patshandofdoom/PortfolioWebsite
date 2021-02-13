@@ -1,10 +1,6 @@
 h1{
     background-color: green;
 }
-div{
-    
-}
-
 body{
     display: block;
     max-width: 1000px;
@@ -17,10 +13,22 @@ body{
     gap: 1em;
 }
 .topbar > div{
-    background-color: mediumblue;
+    background-color: blue;
     padding: 1em;
     text-align: center;
 }
+.topbar > a{
+    background-color: blue;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    border: darkblue;
+    border-width: 3px;
+}
+a:hover{
+    background-color: mediumblue;
+}
+
 .main_body{
     display: grid;
     grid-template-columns: 5fr 3fr 2fr;    
@@ -34,4 +42,13 @@ body{
     display: block;
     border: 2px;
     fill: green;
+}
+#button_container{
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+#Name_Banner{
+
 }
